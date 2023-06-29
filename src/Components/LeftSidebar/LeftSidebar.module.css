@@ -1,0 +1,108 @@
+.leftsidebar__container {
+  max-width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  /* overflow-x: hidden; */
+  overflow: scroll;
+}
+
+.leftsidebar__container::-webkit-scrollbar {
+  display: none;
+}
+
+.brand__name {
+  max-width: 100%;
+  min-height: max-content;
+}
+
+.brand__name h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.addPages__button {
+  max-width: 90%;
+  margin: 1rem auto;
+  min-height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+}
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+.addPages__button button {
+  max-width: 100%;
+  min-height: max-content;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+  background-color: transparent;
+  border: 0;
+  outline: transparent;
+}
+
+.pages__container {
+  max-width: 100%;
+  min-height: max-content;
+  margin-top: 1rem;
+}
+
+.home__page {
+  max-width: 90%;
+  min-height: max-content;
+  margin: 1rem auto;
+  background-color: transparent;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+.edit__icon {
+  width: 2rem;
+  height: 2rem;
+  fill: #9ca8bb;
+}
+
+.delete__icon {
+  width: 2rem;
+  height: 2rem;
+  fill: #9ca8bb;
+}
+
+.home__page h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.functional__container {
+  max-width: 100%;
+  min-height: max-content;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 2px solid #3e3e3e;
+}
+
+.basic__icons,
+.traits__icons,
+.style__icons {
+  width: 2rem;
+  height: 2rem;
+  color: #9ca8bb;
+}

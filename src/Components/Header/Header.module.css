@@ -1,0 +1,22 @@
+.header {
+  max-width: 100%;
+  min-height: max-content;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem;
+}
+
+.device__container {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  width: 1.7rem;
+  height: 1.7rem;
+  fill: #3e3e3e;
+}
